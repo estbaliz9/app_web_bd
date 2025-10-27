@@ -4,7 +4,8 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
 </head>
 <body>
-    <h1>Bienvenido a la base de datos :)</h1>
+    <h1>BIENVENIDO A LA BASE DE DATOS</h1>
+    <h4>Introduzca el usuario, contraseña y la base de datos a la que quiere acceder: </h4>
     <form action="{{ url_for('tablas') }}" method="POST">
         <input type="text" name="usuario" placeholder="Usuario" required><br>
         <input type="password" name="password" placeholder="Contraseña" required><br>
