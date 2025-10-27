@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Tablas en {{ database }}</h1>
+    <table>
+        <tr>
+            <th>Tabla</th>
+            <th>Acción</th>
+        </tr>
+        {% for tabla in tablas %}
+            <tr>
+                <td>{{ tabla[0] }}</td>
+                <td>
+                    <form action="{{ url_for('registros') }}" method="POST">
+                        <input type="hidden" name="tabla" value="{{ tabla[0] }}">
+                        <input type="hidden" name="usuario" value="{{ usuario }}">
+                        <input type="hidden" name="password" value="{{ password }}">
+                        <input type="hidden" name="database" value="{{ database }}">
+                        <button type="submit">Ver registros</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
