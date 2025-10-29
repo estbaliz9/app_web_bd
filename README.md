@@ -204,4 +204,43 @@ INSERT INTO actores (id_actor, id_personaje, nombre_actor) VALUES
 
 </pre>
 
+Cuando ejecutamos el fichero, estando dentro del entorno virtual: 
 
+<pre>
+  python3 app.py
+</pre>
+ Nos aparece la siguiente interfaz: 
+<img width="1244" height="384" alt="imagen" src="https://github.com/user-attachments/assets/f039b1c3-fbd7-4fea-b690-164650cee1f4" />
+
+En ella, tenemos la posibilidad de entrar con el usuario pepa o estibaliz, y la base de datos música o series. 
+Si por ejemplo, queremos entrar con la base de datos musica, y el usuario estíbaliz: 
+
+# USUARIO ESTIBALIZ Y BASE DE DATOS MUSICA
+
+<img width="1245" height="415" alt="imagen" src="https://github.com/user-attachments/assets/baa23b98-2a09-473f-b444-1d4c5c88daf9" />
+
+Nos van a aparecer 4 tablas, y si pulsamos en cada una de ellas, aparecen los registros de cada tabla: 
+
+## CANCIONES: 
+<img width="1247" height="706" alt="imagen" src="https://github.com/user-attachments/assets/ceaff09e-b34f-4138-b804-be4b6ed418ea" />
+
+## CANTANTES: 
+<img width="1513" height="767" alt="imagen" src="https://github.com/user-attachments/assets/1e127731-fdea-4e7c-8afb-705b13026b02" />
+
+## GRUPOS:
+<img width="1513" height="767" alt="imagen" src="https://github.com/user-attachments/assets/fac6e56b-79c2-4bd9-84ea-2820c1b4fdc6" />
+
+# USUARIO PEPA Y BASE DE DATOS SERIES
+
+<img width="1276" height="424" alt="imagen" src="https://github.com/user-attachments/assets/2705d10b-e38f-458c-a31d-ea1d4f9ce431" />
+
+## ACTORES:
+
+<img width="1281" height="581" alt="imagen" src="https://github.com/user-attachments/assets/344cc167-0c04-4571-a3bc-24d3f9f22da3" />
+
+## PERSONAJES:
+
+<img width="1281" height="581" alt="imagen" src="https://github.com/user-attachments/assets/97533be3-eab8-4ae7-81a0-38b9efadc089" />
+
+## SERIES:
+<img width="1287" height="618" alt="imagen" src="https://github.com/user-attachments/assets/db97f59c-0080-44a5-9e9b-de63b0eb7c52" />
