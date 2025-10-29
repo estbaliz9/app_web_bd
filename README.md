@@ -244,3 +244,11 @@ Nos van a aparecer 4 tablas, y si pulsamos en cada una de ellas, aparecen los re
 
 ## SERIES:
 <img width="1287" height="618" alt="imagen" src="https://github.com/user-attachments/assets/db97f59c-0080-44a5-9e9b-de63b0eb7c52" />
+
+ERRORES:
+Si introducimos el usuario pepa, con la base de datos que no le corresponde, nos aparece un error: 
+
+<img width="1273" height="415" alt="imagen" src="https://github.com/user-attachments/assets/f9add9a3-61a4-4071-b57a-afbc430d20fc" />
+
+Si nos equivocamos con la contraseña, también nos sale el error y no nos deja acceder, y si intentamos entrar con otra autentificación igual. 
+Estibaliz tiene permiso para las dos bases, pero pepa solamente con la suya, y eso se cumple. 
