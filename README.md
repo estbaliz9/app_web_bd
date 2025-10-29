@@ -5,7 +5,7 @@ Para la creación de una aplicación web, he realizado la siguiente configuraci�
 <pre>
   python3 app.py 
 </pre>
-
+Es importante saber que está configurada para que se use en remoto, porque escucha peticiones de ip 0.0.0.0.
 Para comprobar que accede a distintos usuarios y distintas bases de datos, he creado dos usuarios con sus respectivas bases de datos:
 
 *Usuario estibaliz
